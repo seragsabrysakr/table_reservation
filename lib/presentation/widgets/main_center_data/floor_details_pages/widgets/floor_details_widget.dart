@@ -1,8 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:table_rsv/presentation/widgets/common/commons.dart';
+ import 'package:table_rsv/presentation/widgets/common/commons.dart';
 import 'package:table_rsv/presentation/widgets/common/divider_hor_widget.dart';
 
 class FloorDetailsWidget extends StatelessWidget {

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
 import 'package:table_rsv/const.dart';
 import 'package:table_rsv/domain/entities/table_entity.dart';
 import 'package:table_rsv/presentation/widgets/common/commons.dart';
@@ -324,7 +323,7 @@ class _HomePageState extends State<HomePage> {
           sizeVer(30),
           ContainerButtonWidget(
             color: colorF7CEA8,
-            iconData: AntDesign.delete,
+            iconData: Icons.delete,
             onClickListener: () {
               setState(() {
                 if (_tableEntity.contains(_selectedTableObject)) {
@@ -341,7 +340,7 @@ class _HomePageState extends State<HomePage> {
           _selectedTableObject!.objectType == TableConst.table
               ? ContainerButtonWidget(
                   color: colorF7CEA8,
-                  iconData: MaterialCommunityIcons.update,
+                  iconData: Icons.update,
                   onClickListener: () {
                     setState(() {
                       if (_tableEntity.contains(_selectedTableObject)) {

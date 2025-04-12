@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:intl/intl.dart';
+ import 'package:intl/intl.dart';
 import 'package:table_rsv/presentation/widgets/common/commons.dart';
 
 class CheckboxButtonColumnWidget extends StatefulWidget {
@@ -109,7 +108,7 @@ class _CheckboxButtonColumnWidgetState
                                 });
                             },
                             child: Icon(
-                              AntDesign.calendar,
+                              Icons.calendar_today,
                               size: 16,
                             ))),
                   ),

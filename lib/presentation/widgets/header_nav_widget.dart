@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-
+ 
 import 'common/commons.dart';
 
 class HeaderNavWidget extends StatelessWidget {
@@ -21,9 +20,11 @@ class HeaderNavWidget extends StatelessWidget {
             children: [
               Icon(Icons.notifications, color: Colors.grey,),
               sizeHor(10),
-              Icon(FontAwesome.user_circle_o, color: Colors.black,),
+              Icon(
+                Icons.supervised_user_circle, color: Colors.black,),
               sizeHor(10),
-              Icon(MaterialIcons.menu, color: Colors.black,),
+              Icon(
+                Icons.menu, color: Colors.black,),
             ],
           )
         ],

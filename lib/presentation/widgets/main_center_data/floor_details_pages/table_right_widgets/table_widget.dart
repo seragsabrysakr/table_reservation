@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:table_rsv/presentation/widgets/theme/style.dart';
 
 class TableWidget extends StatelessWidget {
   final double? left;

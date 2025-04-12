@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:table_rsv/presentation/widgets/common/commons.dart';
+ import 'package:table_rsv/presentation/widgets/common/commons.dart';
 import 'package:table_rsv/presentation/widgets/common/divider_hor_widget.dart';
 import 'package:table_rsv/presentation/widgets/main_center_data/widgets/add_floor_container_button.dart';
 import 'package:table_rsv/presentation/widgets/main_center_data/widgets/container_button_no_icon_widget.dart';
@@ -171,7 +170,7 @@ class _MainTableLeftSideWidgetState extends State<MainTableLeftSideWidget> {
         sizeVer(30),
         ContainerButtonWidget(
           color: colorF7CEA8,
-          iconData: AntDesign.delete,
+          iconData: Icons.delete,
           onClickListener: (){},
           width: 150,
           title: "Delete",

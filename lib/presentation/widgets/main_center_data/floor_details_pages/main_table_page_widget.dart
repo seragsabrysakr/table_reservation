@@ -2,8 +2,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:table_rsv/const.dart';
+ import 'package:table_rsv/const.dart';
 import 'package:table_rsv/domain/entities/table_entity.dart';
 import 'package:table_rsv/presentation/widgets/common/commons.dart';
 import 'package:table_rsv/presentation/widgets/common/divider_hor_widget.dart';
@@ -236,7 +235,7 @@ class _MainTablePageWidgetState extends State<MainTablePageWidget> {
         sizeVer(30),
         ContainerButtonWidget(
           color: colorF7CEA8,
-          iconData: AntDesign.delete,
+          iconData: Icons.delete,
           onClickListener: (){},
           width: 150,
           title: "Delete",

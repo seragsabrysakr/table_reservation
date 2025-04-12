@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
-import 'package:table_rsv/presentation/widgets/common/divider_hor_widget.dart';
+ import 'package:table_rsv/presentation/widgets/common/divider_hor_widget.dart';
 import 'package:table_rsv/presentation/widgets/main_center_data/weekend_schedule_row_widdget.dart';
 
 import 'main_nav_widget.dart';
@@ -87,7 +86,7 @@ class _MainCenterDataWidgetState extends State<MainCenterDataWidget> {
                 width: 10,
               ),
               Icon(
-                FontAwesome.refresh,
+                Icons.refresh,
                 color: Colors.black,
               ),
             ],
